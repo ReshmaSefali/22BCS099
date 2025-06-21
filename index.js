@@ -37,5 +37,5 @@ app.get('/evaluation-service/random', (req, res) => {
   res.json({ numbers: randoms });
 });
 app.listen(port, () => {
-  console.log(`✅ Server running at http://localhost:${port}`);
+  console.log(`Server running at http://localhost:${port}`);
 });
